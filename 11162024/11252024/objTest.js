@@ -29,3 +29,19 @@ const ss_paribahan = {
 ena.booking.call(hanif, 'V2', 'Ahmed')
 ena.booking.call(ss_paribahan, 'V2', 'Ahmed')
 ena.booking.apply(hanif, ['V2', 'Ahmed'])
+
+const bindd = ena.booking.bind(ena)
+//bind('C2')
+
+const student1 = {
+    name: 'mahfuz',
+    termExam(score){
+        console.log(`${this.name} scored ${score} in an exam`)
+    }
+}
+
+const student2 = {
+    name: `shanto`,
+}
+
+//const result = student1.termExam.bind(student2, )
